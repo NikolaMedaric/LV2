@@ -14,6 +14,7 @@ namespace LV2-Zad1
 
 class Die
     {
+    
         private int numberOfSides; 
         private Random randomGenerator;
 
@@ -30,6 +31,7 @@ class Die
     }
 class DiceRoller
     {
+    
         private List<Die> dice;
         private List<int> resultForEachRoll; 
  
@@ -74,6 +76,7 @@ class DiceRoller
     
 class Program
     {
+    
         static void Main(string[] args)
         {
             DiceRoller dice = new DiceRoller(20);
@@ -107,6 +110,7 @@ namespace LV2-Zad2
 
 class Die
     {
+    
         private int numberOfSides;
         private Random randomGenerator;
 
@@ -125,6 +129,7 @@ class Die
     
 class DiceRoller
     {
+    
         private List<Die> dice;
         private List<int> resultForEachRoll;
 
@@ -170,6 +175,7 @@ class DiceRoller
     
 class Program
     {
+    
         static void Main(string[] args)
         {
             DiceRoller dice = new DiceRoller(20);
@@ -187,5 +193,5 @@ class Program
             }
         }
     }
-    
+}
 
