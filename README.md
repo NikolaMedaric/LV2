@@ -107,6 +107,7 @@ using System.Text;
 using System.Threading.Tasks;
 
 namespace LV2-Zad2
+{
 
 class Die
     {
